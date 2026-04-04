@@ -1,13 +1,11 @@
+numero1 = float(input())
+numero2 = float(input())
+numero3 = float(input())
+numero4 = float(input())
+numero5 = float(input())
+numero6 = float(input())
+
 contador = 0
-
-numero1 = int(input())
-numero2 = int(input())
-numero3 = int(input())
-numero4 = int(input())
-numero5 = int(input())
-numero6 = int(input())
-
-lista = [numero1, numero2, numero3, numero4, numero5, numero6]
 
 if numero1 > 0:
     contador +=1
