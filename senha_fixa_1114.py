@@ -7,5 +7,5 @@ while numero != senha:
     texto = texto + "Senha Invalida\n"
 else:
     texto = texto + "Acesso Permitido"
+    print(texto)
 
-print(texto)
