@@ -13,6 +13,6 @@ while contador < 1000:
 
 contador_2 = 0
 
-for i in range(1000+1):
+for i in range(1000):
     print(f"N[{contador_2}] = {lista_vetor[i]}")
     contador_2 += 1
