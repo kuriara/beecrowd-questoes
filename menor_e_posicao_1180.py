@@ -1,8 +1,9 @@
 n = int(input())
-menor = 11
 
-x = input().split(" ",n)
+x = input().split()
 
+menor = int(x[0])
+index = 0
 
 for i in range(len(x)):
     if int(x[i]) < menor:
