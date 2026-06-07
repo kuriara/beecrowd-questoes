@@ -14,7 +14,7 @@ for i in range(12):
 
 for i in range(len(matriz)):
     for j in range(len(matriz[i])):
-        if j > i:
+        if i > j:
             soma = soma + matriz[i][j]
             contador += 1
 
