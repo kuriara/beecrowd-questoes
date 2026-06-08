@@ -4,10 +4,10 @@ contador = 0
 soma = 0
 operacao = input()
 
-for i in range(3):
+for i in range(12):
     lista = []
-    for j in range(3):
-        numero = int(input())
+    for j in range(12):
+        numero = float(input())
         lista.append(numero)
     matriz.append(lista)
 
@@ -18,8 +18,8 @@ for i in range(len(matriz)):
             contador += 1
 
 if operacao == "S":
-    print(soma)
+    print(f"{soma:.1f}")
 
 if operacao == "M":
-    print(soma / contador)
+    print(f"{soma / contador:.1f}")
         
