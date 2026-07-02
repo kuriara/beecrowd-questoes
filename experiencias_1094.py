@@ -23,4 +23,4 @@ porc_coelho = round(porc_coelho, 2)
 porc_rato = round(porc_rato, 2)
 porc_sapo = round(porc_sapo, 2)
 
-print(f"Total: {total} cobaias\nTotal de coelhos: {total_coelho}\nTotal de ratos: {total_rato}\nTotal de sapos: {total_sapo}\nPercentual de coelhos: {porc_coelho} %\nPercentual de ratos: {porc_rato} %\nPercentual de sapos: {porc_sapo} %")
+print(f"Total: {total} cobaias\nTotal de coelhos: {total_coelho}\nTotal de ratos: {total_rato}\nTotal de sapos: {total_sapo}\nPercentual de coelhos: {porc_coelho:.2f} %\nPercentual de ratos: {porc_rato:.2f} %\nPercentual de sapos: {porc_sapo:.2f} %")
