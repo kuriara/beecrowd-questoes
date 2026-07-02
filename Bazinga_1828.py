@@ -13,8 +13,8 @@ while contador <= numero:
 
     for i in range(len(lista)):
         if lista[i] == x and lista_2[i] == y:
-            print(f"Caso #{contador}: Bazinga")
+            print(f"Caso #{contador}: Bazinga!")
         elif lista[i] == y and lista_2[i] == x:
-            print(f"Caso #{contador}: Raj trapaceou")
+            print(f"Caso #{contador}: Raj trapaceou!")
 
     contador += 1
